@@ -13,7 +13,6 @@ RUN set -ex; \
     rm -rf /usr/src/wordpress/wp-content/themes/twentysixteen; \
     rm -rf /usr/src/wordpress/wp-content/themes/twentyseventeen; \
     rm -rf /usr/src/wordpress/readme.html; \
-    rm -rf /usr/src/wordpress/wp-config-sample.php; \
     apt-get update; \
     apt-get install -y --no-install-recommends git sudo; \
     curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar; \
