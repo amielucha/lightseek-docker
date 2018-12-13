@@ -22,7 +22,8 @@ RUN set -ex; \
     git clone \
       https://github.com/amielucha/lightseek.git \
       /usr/src/wordpress/wp-content/themes/lightseek \
-    ;
+    ; \
+    rm -rf /usr/src/wordpress/wp-content/themes/lightseek/.git;
 
 # Add the custom installation script.
 COPY wordpress-install.php /usr/src/wordpress/wp-content/install.php
