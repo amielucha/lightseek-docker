@@ -12,6 +12,7 @@ RUN set -ex; \
     rm -rf /usr/src/wordpress/wp-content/themes/twentyfifteen; \
     rm -rf /usr/src/wordpress/wp-content/themes/twentysixteen; \
     rm -rf /usr/src/wordpress/wp-content/themes/twentyseventeen; \
+    rm -rf /usr/src/wordpress/wp-content/themes/twentynineteen; \
     rm -rf /usr/src/wordpress/readme.html; \
     apt-get update; \
     apt-get install -y --no-install-recommends git sudo; \
