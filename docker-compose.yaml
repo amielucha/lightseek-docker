@@ -29,6 +29,7 @@ services:
     volumes:
       - ./wp:/var/www/html
       - ./php.ini:/usr/local/etc/php/conf.d/myphp.ini
+      - ./.bashrc:/root/.bashrc
 
 volumes:
   wp:
