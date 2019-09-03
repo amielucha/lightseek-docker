@@ -28,6 +28,7 @@ services:
       - 8080:80
     volumes:
       - ./wp:/var/www/html
+      - ./php.ini:/usr/local/etc/php/conf.d/myphp.ini
 
 volumes:
   wp:
