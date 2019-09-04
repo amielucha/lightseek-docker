@@ -239,4 +239,12 @@ function wp_install_defaults( int $user_id ) {
    * @see wp-admin/includes/screen.php
    */
   update_user_meta( $user_id, 'show_welcome_panel', 0 );
+
+  /**
+   * Gravity Forms presets
+   */
+
+  update_option( 'rg_gforms_currency', 'EUR' );
+  update_option( 'rg_gforms_enable_html5', 1 );
+  update_option( 'gform_enable_noconflict', 1 );
 }
